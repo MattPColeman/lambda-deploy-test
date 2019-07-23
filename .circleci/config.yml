@@ -19,7 +19,7 @@ jobs:
           name: Install Dependencies
           command: |
             sudo pip install pipenv
-            pipenv install '-e .'
+            pipenv install
 
       - run:
           name: Run Logic Tests (pytest)
